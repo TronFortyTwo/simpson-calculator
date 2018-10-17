@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Simpson Area Calculator</title>
+		
+		<link href="style.css" rel="stylesheet" type="text/css">
+		
+		<meta name = "keywords" content = "Polar, polari, Coordinate, Area, calculator, topography" />
+		<meta name = "description" content = "Area calculator using Simpson method" />
+		<meta name = "author" content = "Emanuele Sorce" />
+		
+		<script type="text/javascript" src="gauss.js"></script>
+	</head>
+	
+	<body onload="init()">
+		<center>
+			
+			<noscript>
+				Sorry... JavaScript is needed to go ahead. Enable it in your browser to continue
+			</noscript>
+
+			
+			<hr>
+			<h1>Area calculator - Simpson method</h1>
+			<hr>
+
+			<table width="85%" border="10vmin" id="table">
+				<tr>
+					<td><b>&nbsp;</b></td>
+					<td><b><center>Value (m)</center></b></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2">
+						<center>
+							<input id="table_button" type="button" value="Add value" onClick="addPoint()" style="width:100%">
+						</center>
+					</td>
+				</tr>
+			</table>
+			
+			
+			<h3 id="area">AREA: </h3>
+			
+			<br>
+			<hr>
+			<h7>Copyright(c) 2018 Emanuele Sorce<br><a href="https://tronfortytwo.github.io">Website</a><br>Licensed under GNU GPLv3 License</h7>
+			
+		</center>
+	</body>
+</html>
